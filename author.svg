@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 190" width="760" height="190">
+  <defs>
+
+    <!-- Dark background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#06061A"/>
+      <stop offset="100%" stop-color="#0B0B26"/>
+    </linearGradient>
+
+    <!-- Name gradient: saffron → white → saffron -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#FF9933"/>
+      <stop offset="45%"  stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FF9933"/>
+    </linearGradient>
+
+    <!-- Tagline glow filter -->
+    <filter id="gT" x="-5%" y="-40%" width="115%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Subtle name glow -->
+    <filter id="gN" x="-5%" y="-40%" width="115%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Label glow -->
+    <filter id="gL" x="-5%" y="-50%" width="115%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- ═══ CARD BACKGROUND ═══ -->
+  <rect x="0" y="0" width="760" height="190" rx="16" fill="url(#bg)"/>
+
+  <!-- ═══ TOP TRICOLOR STRIPE ═══ -->
+  <rect x="16"  y="0"   width="240" height="5" rx="2.5" fill="#FF9933"/>
+  <rect x="260" y="0"   width="240" height="5"           fill="#DDDDDD" opacity="0.4"/>
+  <rect x="504" y="0"   width="240" height="5" rx="2.5" fill="#138808"/>
+
+  <!-- ═══ BOTTOM TRICOLOR STRIPE ═══ -->
+  <rect x="16"  y="185" width="240" height="5" rx="2.5" fill="#FF9933"/>
+  <rect x="260" y="185" width="240" height="5"           fill="#DDDDDD" opacity="0.4"/>
+  <rect x="504" y="185" width="240" height="5" rx="2.5" fill="#138808"/>
+
+  <!-- ═══ LEFT PULSE BAR ═══ -->
+  <rect x="0" y="5" width="5" height="180" rx="2.5" fill="#FF9933">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ═══ RIGHT PULSE BAR ═══ -->
+  <rect x="755" y="5" width="5" height="180" rx="2.5" fill="#138808">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.8s" begin="1.4s" repeatCount="indefinite"/>
+  </rect>
+
+
+  <!-- ════════════════════════════════════════════ -->
+  <!--  LEFT BLOCK  — all elements x-anchored at 28 -->
+  <!--  Safe right edge: x=340                      -->
+  <!-- ════════════════════════════════════════════ -->
+
+  <!-- Flag — fixed position -->
+  <text x="28" y="50" font-family="serif" font-size="24">&#127470;&#127475;</text>
+
+  <!-- BUILT BY label -->
+  <text
+    x="28" y="76"
+    font-family="Georgia, serif"
+    font-size="10" font-weight="400"
+    fill="#FF9933"
+    letter-spacing="5"
+    filter="url(#gL)">BUILT BY</text>
+
+  <!-- NAME — 36px, gradient fill, left-anchored, fits within 340px -->
+  <!-- "Darshan Paapani" at 36px Georgia bold ≈ 285px wide — safe -->
+  <text
+    x="28" y="128"
+    font-family="Georgia, serif"
+    font-size="36" font-weight="900"
+    fill="url(#nameGrad)"
+    filter="url(#gN)">Darshan Paapani
+    <animate attributeName="opacity" values="1;0.82;1" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Role subtitle — smaller, muted -->
+  <text
+    x="30" y="152"
+    font-family="Georgia, serif"
+    font-size="11.5" font-weight="400"
+    fill="#AAAAAA"
+    letter-spacing="1.5">Creator · Architect · Builder of JNANA</text>
+
+  <!-- Connector dot row -->
+  <circle cx="30"  cy="170" r="2" fill="#FF9933" opacity="0.5"/>
+  <circle cx="40"  cy="170" r="2" fill="#FF9933" opacity="0.35"/>
+  <circle cx="50"  cy="170" r="2" fill="#FF9933" opacity="0.2"/>
+
+
+  <!-- ═══ DIVIDER ═══ -->
+  <line x1="358" y1="20" x2="358" y2="170"
+    stroke="#FF9933" stroke-width="0.7" opacity="0.15"/>
+
+
+  <!-- ════════════════════════════════════════════ -->
+  <!--  RIGHT BLOCK — all elements x-anchored at 378 -->
+  <!-- ════════════════════════════════════════════ -->
+
+  <!-- THE SPIRIT label -->
+  <text
+    x="378" y="46"
+    font-family="Georgia, serif"
+    font-size="10" font-weight="400"
+    fill="#138808"
+    letter-spacing="5"
+    filter="url(#gL)">THE SPIRIT</text>
+
+  <!-- Tagline line 1 — white, bold -->
+  <text
+    x="378" y="80"
+    font-family="Georgia, serif"
+    font-size="18" font-weight="700"
+    fill="#FFFFFF"
+    opacity="0.93">"This isn't software.</text>
+
+  <!-- Tagline line 2 — saffron, bolder, glowing -->
+  <text
+    x="378" y="108"
+    font-family="Georgia, serif"
+    font-size="18" font-weight="900"
+    fill="#FF9933"
+    filter="url(#gT)">This is justice, written in code."
+    <animate attributeName="opacity" values="1;0.45;1" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Devanagari line -->
+  <text
+    x="378" y="136"
+    font-family="Georgia, serif"
+    font-size="13"
+    fill="#138808"
+    letter-spacing="1.5"
+    opacity="0.9">&#2319;&#2325; &#2360;&#2379;&#2330; &#2404; &#2319;&#2325; &#2350;&#2367;&#2358;&#2344; &#2404; &#2349;&#2366;&#2352;&#2340; &#2325;&#2375; &#2354;&#2367;&#2319;</text>
+
+  <!-- Micro line -->
+  <text
+    x="378" y="162"
+    font-family="Georgia, serif"
+    font-size="10.5" font-style="italic"
+    fill="#FFFFFF"
+    opacity="0.25">One Nation · One Platform · Infinite Knowledge</text>
+
+</svg>
