@@ -260,9 +260,7 @@ npm run dev
 
 <br/><br/>
 
-<!-- ╔══════════════════════════════════════════════════╗ -->
-<!--              AUTHOR CARD — Darshan Paapani         -->
-<!-- ╚══════════════════════════════════════════════════╝ -->
+
 
 <img
   src="https://raw.githubusercontent.com/Darshan-paapani06/JNANA-Everyone-s-Knowledge/main/author.svg"
