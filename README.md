@@ -269,3 +269,13 @@ npm run dev
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:138808,40:f5f5f5,60:f5f5f5,100:FF9933&height=140&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
+<div align="center">
+
+<img
+  src="https://raw.githubusercontent.com/Darshan-paapani/JNANA-Everyone-s-Knowledge/main/author.svg"
+  width="620"
+  alt="Built by Darshan Paapani"
+/>
+
+</div>
+
