@@ -168,6 +168,7 @@ Citizen asks  ──▶  JNANA answers  ──▶  Citizen corrects  ──▶  
 jnana-app/
 │
 ├── logo.svg                          JNANA logo — JN + Ashok Chakra + NA
+├── author.svg                        Author card — Darshan Paapani
 ├── index.html                        PWA entry + Google Fonts
 ├── vite.config.js                    Vite 5 + vite-plugin-pwa + Workbox
 ├── package.json                      React 18, Zustand, Recharts, Supabase
@@ -208,8 +209,8 @@ jnana-app/
 </div>
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/jnana-app.git
-cd jnana-app
+git clone https://github.com/Darshan-paapani06/JNANA-Everyone-s-Knowledge.git
+cd JNANA-Everyone-s-Knowledge
 npm install
 cp .env.example .env
 npm run dev
@@ -254,9 +255,22 @@ npm run dev
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Syne&weight=700&size=15&duration=4000&pause=2000&color=FF9933&center=true&vCenter=true&width=700&height=40&lines=Built+with+patience+and+purpose+for+India%27s+1.4+billion+citizens." alt="closing"/>
+<!-- Closing animated line -->
+<img src="https://readme-typing-svg.demolab.com?font=Syne&weight=700&size=15&duration=4000&pause=2000&color=FF9933&center=true&vCenter=true&width=720&height=40&lines=Built+with+patience+and+purpose+for+India%27s+1.4+billion+citizens." alt="closing"/>
 
-<br/>
+<br/><br/>
+
+<!-- ╔══════════════════════════════════════════════════╗ -->
+<!--              AUTHOR CARD — Darshan Paapani         -->
+<!-- ╚══════════════════════════════════════════════════╝ -->
+
+<img
+  src="https://raw.githubusercontent.com/Darshan-paapani06/JNANA-Everyone-s-Knowledge/main/author.svg"
+  width="680"
+  alt="Built by Darshan Paapani — I didn't build a product. I built a right for 1.4 Billion."
+/>
+
+<br/><br/>
 
 ![](https://img.shields.io/badge/Made%20in-India%20%F0%9F%87%AE%F0%9F%87%B3-FF9933?style=for-the-badge&labelColor=0D0D26)
 &nbsp;
@@ -269,13 +283,3 @@ npm run dev
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:138808,40:f5f5f5,60:f5f5f5,100:FF9933&height=140&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
-<div align="center">
-
-<img
-  src="https://raw.githubusercontent.com/Darshan-paapani/JNANA-Everyone-s-Knowledge/main/author.svg"
-  width="620"
-  alt="Built by Darshan Paapani"
-/>
-
-</div>
-
