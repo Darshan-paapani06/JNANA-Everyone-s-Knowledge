@@ -5,7 +5,7 @@
 <br/>
 
 <img
-  src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/logo.svg"
+  src="https://raw.githubusercontent.com/Darshan-paapani06/JNANA-Everyone-s-Knowledge/main/logo.svg"
   width="460"
   alt="JNANA — India's National Intelligence RAG Platform"
 />
