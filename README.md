@@ -267,7 +267,7 @@ npm run dev
 <img
   src="https://raw.githubusercontent.com/Darshan-paapani06/JNANA-Everyone-s-Knowledge/main/author.svg"
   width="680"
-  alt="Built by Darshan Paapani — I didn't build a product. I built a right for 1.4 Billion."
+  alt="Built by DarshanPaapani — I didn't build a product. I built a right for 1.4 Billion."
 />
 
 <br/><br/>
