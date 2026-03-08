@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 100" width="410" height="100">
+  <defs>
+    <filter id="gS" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="gG" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="gB" x="-55%" y="-55%" width="210%" height="210%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#gS)">
+    <text x="4" y="88" font-family="Georgia,serif" font-size="92" font-weight="900" fill="#FF9933">J
+      <animate attributeName="opacity" values="1;0.7;1" dur="3.5s" begin="0s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <g filter="url(#gS)">
+    <text x="59" y="88" font-family="Georgia,serif" font-size="92" font-weight="900" fill="#FF9933">N
+      <animate attributeName="opacity" values="1;0.7;1" dur="3.5s" begin="0.3s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <g filter="url(#gB)" transform="translate(188,50)">
+    <circle r="50" fill="none" stroke="#06038D" stroke-width="0.8" opacity="0.15">
+      <animate attributeName="r"       values="48;58;48"     dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.0;0.15" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <g>
+      <animateTransform attributeName="transform" type="rotate"
+        from="0 0 0" to="360 0 0" dur="10s" repeatCount="indefinite"/>
+      <circle r="44.0" fill="none" stroke="#06038D" stroke-width="5"/>
+      <circle r="14.0" fill="none" stroke="#06038D" stroke-width="2.5"/>
+      <circle r="5.5"   fill="#06038D"/>
+      <g stroke="#06038D" stroke-width="2" stroke-linecap="round">
+        <line x1="0.0" y1="-15.0" x2="0.0" y2="-42.0"/>
+          <line x1="3.88" y1="-14.49" x2="10.87" y2="-40.57"/>
+          <line x1="7.5" y1="-12.99" x2="21.0" y2="-36.37"/>
+          <line x1="10.61" y1="-10.61" x2="29.7" y2="-29.7"/>
+          <line x1="12.99" y1="-7.5" x2="36.37" y2="-21.0"/>
+          <line x1="14.49" y1="-3.88" x2="40.57" y2="-10.87"/>
+          <line x1="15.0" y1="0.0" x2="42.0" y2="0.0"/>
+          <line x1="14.49" y1="3.88" x2="40.57" y2="10.87"/>
+          <line x1="12.99" y1="7.5" x2="36.37" y2="21.0"/>
+          <line x1="10.61" y1="10.61" x2="29.7" y2="29.7"/>
+          <line x1="7.5" y1="12.99" x2="21.0" y2="36.37"/>
+          <line x1="3.88" y1="14.49" x2="10.87" y2="40.57"/>
+          <line x1="0.0" y1="15.0" x2="0.0" y2="42.0"/>
+          <line x1="-3.88" y1="14.49" x2="-10.87" y2="40.57"/>
+          <line x1="-7.5" y1="12.99" x2="-21.0" y2="36.37"/>
+          <line x1="-10.61" y1="10.61" x2="-29.7" y2="29.7"/>
+          <line x1="-12.99" y1="7.5" x2="-36.37" y2="21.0"/>
+          <line x1="-14.49" y1="3.88" x2="-40.57" y2="10.87"/>
+          <line x1="-15.0" y1="0.0" x2="-42.0" y2="0.0"/>
+          <line x1="-14.49" y1="-3.88" x2="-40.57" y2="-10.87"/>
+          <line x1="-12.99" y1="-7.5" x2="-36.37" y2="-21.0"/>
+          <line x1="-10.61" y1="-10.61" x2="-29.7" y2="-29.7"/>
+          <line x1="-7.5" y1="-12.99" x2="-21.0" y2="-36.37"/>
+          <line x1="-3.88" y1="-14.49" x2="-10.87" y2="-40.57"/>
+      </g>
+      <g fill="#06038D">
+        <circle cx="0.0" cy="-43.0" r="3.2"/>
+          <circle cx="11.13" cy="-41.53" r="3.2"/>
+          <circle cx="21.5" cy="-37.24" r="3.2"/>
+          <circle cx="30.41" cy="-30.41" r="3.2"/>
+          <circle cx="37.24" cy="-21.5" r="3.2"/>
+          <circle cx="41.53" cy="-11.13" r="3.2"/>
+          <circle cx="43.0" cy="0.0" r="3.2"/>
+          <circle cx="41.53" cy="11.13" r="3.2"/>
+          <circle cx="37.24" cy="21.5" r="3.2"/>
+          <circle cx="30.41" cy="30.41" r="3.2"/>
+          <circle cx="21.5" cy="37.24" r="3.2"/>
+          <circle cx="11.13" cy="41.53" r="3.2"/>
+          <circle cx="0.0" cy="43.0" r="3.2"/>
+          <circle cx="-11.13" cy="41.53" r="3.2"/>
+          <circle cx="-21.5" cy="37.24" r="3.2"/>
+          <circle cx="-30.41" cy="30.41" r="3.2"/>
+          <circle cx="-37.24" cy="21.5" r="3.2"/>
+          <circle cx="-41.53" cy="11.13" r="3.2"/>
+          <circle cx="-43.0" cy="0.0" r="3.2"/>
+          <circle cx="-41.53" cy="-11.13" r="3.2"/>
+          <circle cx="-37.24" cy="-21.5" r="3.2"/>
+          <circle cx="-30.41" cy="-30.41" r="3.2"/>
+          <circle cx="-21.5" cy="-37.24" r="3.2"/>
+          <circle cx="-11.13" cy="-41.53" r="3.2"/>
+      </g>
+    </g>
+  </g>
+
+  <g filter="url(#gG)">
+    <text x="242" y="88" font-family="Georgia,serif" font-size="92" font-weight="900" fill="#138808">N
+      <animate attributeName="opacity" values="1;0.7;1" dur="3.5s" begin="0.6s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <g filter="url(#gG)">
+    <text x="319" y="88" font-family="Georgia,serif" font-size="92" font-weight="900" fill="#138808">A
+      <animate attributeName="opacity" values="1;0.7;1" dur="3.5s" begin="0.9s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
